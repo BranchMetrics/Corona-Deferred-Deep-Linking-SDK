@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		860219921AD53B8000B94C5A /* BNCEncodingUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219771AD53B1700B94C5A /* BNCEncodingUtils.m */; };
+		860219931AD53B8000B94C5A /* BNCError.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219791AD53B1700B94C5A /* BNCError.m */; };
+		860219941AD53B8000B94C5A /* BNCLinkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602197B1AD53B1700B94C5A /* BNCLinkCache.m */; };
+		860219951AD53B8000B94C5A /* BNCLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602197D1AD53B1700B94C5A /* BNCLinkData.m */; };
+		860219961AD53B8000B94C5A /* BNCPreferenceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602197F1AD53B1700B94C5A /* BNCPreferenceHelper.m */; };
+		860219971AD53B8000B94C5A /* BNCServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219811AD53B1700B94C5A /* BNCServerInterface.m */; };
+		860219981AD53B8000B94C5A /* BNCServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219831AD53B1700B94C5A /* BNCServerRequest.m */; };
+		860219991AD53B8000B94C5A /* BNCServerRequestQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219851AD53B1700B94C5A /* BNCServerRequestQueue.m */; };
+		8602199A1AD53B8000B94C5A /* BNCServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219871AD53B1700B94C5A /* BNCServerResponse.m */; };
+		8602199B1AD53B8000B94C5A /* BNCSystemObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219891AD53B1700B94C5A /* BNCSystemObserver.m */; };
+		8602199C1AD53B8000B94C5A /* Branch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602198D1AD53B1700B94C5A /* Branch.m */; };
+		8602199D1AD53B8000B94C5A /* BranchActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602198F1AD53B1700B94C5A /* BranchActivityItemProvider.m */; };
+		8602199E1AD53B8000B94C5A /* BranchServerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 860219911AD53B1700B94C5A /* BranchServerInterface.m */; };
+		8602199F1AD53C7A00B94C5A /* Branch-SDK-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 8602198A1AD53B1700B94C5A /* Branch-SDK-Prefix.pch */; };
+		862B60E61AB83CBC004D3475 /* NotificationChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = 862B60D91AB83CBC004D3475 /* NotificationChecker.mm */; };
+		A4E253C9166D716900DCDC2C /* PluginBranch.mm in Sources */ = {isa = PBXBuildFile; fileRef = A447B617165D734C009EA762 /* PluginBranch.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4E253B4166D6FB300DCDC2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		860219751AD53B1700B94C5A /* BNCConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCConfig.h; sourceTree = "<group>"; };
+		860219761AD53B1700B94C5A /* BNCEncodingUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCEncodingUtils.h; sourceTree = "<group>"; };
+		860219771AD53B1700B94C5A /* BNCEncodingUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCEncodingUtils.m; sourceTree = "<group>"; };
+		860219781AD53B1700B94C5A /* BNCError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCError.h; sourceTree = "<group>"; };
+		860219791AD53B1700B94C5A /* BNCError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCError.m; sourceTree = "<group>"; };
+		8602197A1AD53B1700B94C5A /* BNCLinkCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCLinkCache.h; sourceTree = "<group>"; };
+		8602197B1AD53B1700B94C5A /* BNCLinkCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCLinkCache.m; sourceTree = "<group>"; };
+		8602197C1AD53B1700B94C5A /* BNCLinkData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCLinkData.h; sourceTree = "<group>"; };
+		8602197D1AD53B1700B94C5A /* BNCLinkData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCLinkData.m; sourceTree = "<group>"; };
+		8602197E1AD53B1700B94C5A /* BNCPreferenceHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCPreferenceHelper.h; sourceTree = "<group>"; };
+		8602197F1AD53B1700B94C5A /* BNCPreferenceHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCPreferenceHelper.m; sourceTree = "<group>"; };
+		860219801AD53B1700B94C5A /* BNCServerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCServerInterface.h; sourceTree = "<group>"; };
+		860219811AD53B1700B94C5A /* BNCServerInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCServerInterface.m; sourceTree = "<group>"; };
+		860219821AD53B1700B94C5A /* BNCServerRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCServerRequest.h; sourceTree = "<group>"; };
+		860219831AD53B1700B94C5A /* BNCServerRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCServerRequest.m; sourceTree = "<group>"; };
+		860219841AD53B1700B94C5A /* BNCServerRequestQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCServerRequestQueue.h; sourceTree = "<group>"; };
+		860219851AD53B1700B94C5A /* BNCServerRequestQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCServerRequestQueue.m; sourceTree = "<group>"; };
+		860219861AD53B1700B94C5A /* BNCServerResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCServerResponse.h; sourceTree = "<group>"; };
+		860219871AD53B1700B94C5A /* BNCServerResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCServerResponse.m; sourceTree = "<group>"; };
+		860219881AD53B1700B94C5A /* BNCSystemObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNCSystemObserver.h; sourceTree = "<group>"; };
+		860219891AD53B1700B94C5A /* BNCSystemObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNCSystemObserver.m; sourceTree = "<group>"; };
+		8602198A1AD53B1700B94C5A /* Branch-SDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Branch-SDK-Prefix.pch"; sourceTree = "<group>"; };
+		8602198B1AD53B1700B94C5A /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Branch.framework; sourceTree = "<group>"; };
+		8602198C1AD53B1700B94C5A /* Branch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Branch.h; sourceTree = "<group>"; };
+		8602198D1AD53B1700B94C5A /* Branch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Branch.m; sourceTree = "<group>"; };
+		8602198E1AD53B1700B94C5A /* BranchActivityItemProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BranchActivityItemProvider.h; sourceTree = "<group>"; };
+		8602198F1AD53B1700B94C5A /* BranchActivityItemProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BranchActivityItemProvider.m; sourceTree = "<group>"; };
+		860219901AD53B1700B94C5A /* BranchServerInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BranchServerInterface.h; sourceTree = "<group>"; };
+		860219911AD53B1700B94C5A /* BranchServerInterface.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BranchServerInterface.m; sourceTree = "<group>"; };
+		862B60D81AB83CBC004D3475 /* NotificationChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationChecker.h; path = Plugin/NotificationChecker.h; sourceTree = "<group>"; };
+		862B60D91AB83CBC004D3475 /* NotificationChecker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NotificationChecker.mm; path = Plugin/NotificationChecker.mm; sourceTree = "<group>"; };
+		A447B616165D734C009EA762 /* PluginBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginBranch.h; path = Plugin/PluginBranch.h; sourceTree = "<group>"; };
+		A447B617165D734C009EA762 /* PluginBranch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PluginBranch.mm; path = Plugin/PluginBranch.mm; sourceTree = "<group>"; };
+		A4E253B6166D6FB300DCDC2C /* libplugin_branch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libplugin_branch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4E253B3166D6FB300DCDC2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		860219741AD53B1700B94C5A /* Branch-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				860219751AD53B1700B94C5A /* BNCConfig.h */,
+				860219761AD53B1700B94C5A /* BNCEncodingUtils.h */,
+				860219771AD53B1700B94C5A /* BNCEncodingUtils.m */,
+				860219781AD53B1700B94C5A /* BNCError.h */,
+				860219791AD53B1700B94C5A /* BNCError.m */,
+				8602197A1AD53B1700B94C5A /* BNCLinkCache.h */,
+				8602197B1AD53B1700B94C5A /* BNCLinkCache.m */,
+				8602197C1AD53B1700B94C5A /* BNCLinkData.h */,
+				8602197D1AD53B1700B94C5A /* BNCLinkData.m */,
+				8602197E1AD53B1700B94C5A /* BNCPreferenceHelper.h */,
+				8602197F1AD53B1700B94C5A /* BNCPreferenceHelper.m */,
+				860219801AD53B1700B94C5A /* BNCServerInterface.h */,
+				860219811AD53B1700B94C5A /* BNCServerInterface.m */,
+				860219821AD53B1700B94C5A /* BNCServerRequest.h */,
+				860219831AD53B1700B94C5A /* BNCServerRequest.m */,
+				860219841AD53B1700B94C5A /* BNCServerRequestQueue.h */,
+				860219851AD53B1700B94C5A /* BNCServerRequestQueue.m */,
+				860219861AD53B1700B94C5A /* BNCServerResponse.h */,
+				860219871AD53B1700B94C5A /* BNCServerResponse.m */,
+				860219881AD53B1700B94C5A /* BNCSystemObserver.h */,
+				860219891AD53B1700B94C5A /* BNCSystemObserver.m */,
+				8602198A1AD53B1700B94C5A /* Branch-SDK-Prefix.pch */,
+				8602198B1AD53B1700B94C5A /* Branch.framework */,
+				8602198C1AD53B1700B94C5A /* Branch.h */,
+				8602198D1AD53B1700B94C5A /* Branch.m */,
+				8602198E1AD53B1700B94C5A /* BranchActivityItemProvider.h */,
+				8602198F1AD53B1700B94C5A /* BranchActivityItemProvider.m */,
+				860219901AD53B1700B94C5A /* BranchServerInterface.h */,
+				860219911AD53B1700B94C5A /* BranchServerInterface.m */,
+			);
+			name = "Branch-SDK";
+			path = "Plugin/Branch-SDK";
+			sourceTree = "<group>";
+		};
+		A447B609165D72A6009EA762 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				860219741AD53B1700B94C5A /* Branch-SDK */,
+				862B60D81AB83CBC004D3475 /* NotificationChecker.h */,
+				862B60D91AB83CBC004D3475 /* NotificationChecker.mm */,
+				A447B616165D734C009EA762 /* PluginBranch.h */,
+				A447B617165D734C009EA762 /* PluginBranch.mm */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A484110E15114F700074BD57 = {
+			isa = PBXGroup;
+			children = (
+				A447B609165D72A6009EA762 /* Source */,
+				A484111A15114F700074BD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A484111A15114F700074BD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E253B6166D6FB300DCDC2C /* libplugin_branch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4E253B5166D6FB300DCDC2C /* plugin_branch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_branch" */;
+			buildPhases = (
+				A4E253B2166D6FB300DCDC2C /* Sources */,
+				A4E253B3166D6FB300DCDC2C /* Frameworks */,
+				A4E253B4166D6FB300DCDC2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = plugin_branch;
+			productName = plugin_library;
+			productReference = A4E253B6166D6FB300DCDC2C /* libplugin_branch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A484111015114F700074BD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A484110E15114F700074BD57;
+			productRefGroup = A484111A15114F700074BD57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4E253B5166D6FB300DCDC2C /* plugin_branch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4E253B2166D6FB300DCDC2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8602199F1AD53C7A00B94C5A /* Branch-SDK-Prefix.pch in Sources */,
+				860219921AD53B8000B94C5A /* BNCEncodingUtils.m in Sources */,
+				860219931AD53B8000B94C5A /* BNCError.m in Sources */,
+				860219941AD53B8000B94C5A /* BNCLinkCache.m in Sources */,
+				860219951AD53B8000B94C5A /* BNCLinkData.m in Sources */,
+				860219961AD53B8000B94C5A /* BNCPreferenceHelper.m in Sources */,
+				860219971AD53B8000B94C5A /* BNCServerInterface.m in Sources */,
+				860219981AD53B8000B94C5A /* BNCServerRequest.m in Sources */,
+				860219991AD53B8000B94C5A /* BNCServerRequestQueue.m in Sources */,
+				8602199A1AD53B8000B94C5A /* BNCServerResponse.m in Sources */,
+				8602199B1AD53B8000B94C5A /* BNCSystemObserver.m in Sources */,
+				8602199C1AD53B8000B94C5A /* Branch.m in Sources */,
+				8602199D1AD53B8000B94C5A /* BranchActivityItemProvider.m in Sources */,
+				8602199E1AD53B8000B94C5A /* BranchServerInterface.m in Sources */,
+				A4E253C9166D716900DCDC2C /* PluginBranch.mm in Sources */,
+				862B60E61AB83CBC004D3475 /* NotificationChecker.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A484114015114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+			};
+			name = Debug;
+		};
+		A484114115114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4E253C0166D6FB300DCDC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/Branch-SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4E253C1166D6FB300DCDC2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/plugin_library.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Plugin/Branch-SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A484111315114F700074BD57 /* Build configuration list for PBXProject "Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114015114F700074BD57 /* Debug */,
+				A484114115114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E253BF166D6FB300DCDC2C /* Build configuration list for PBXNativeTarget "plugin_branch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E253C0166D6FB300DCDC2C /* Debug */,
+				A4E253C1166D6FB300DCDC2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A484111015114F700074BD57 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C9DC464C-8435-47A1-8E05-3B2D4565EE0E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>44DB887B464C95885BF7416056FB51055EB49BAF</key>
+		<string>/Users/williamminkstein/Dropbox/Repository/branch-corona-plugin.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>44DB887B464C95885BF7416056FB51055EB49BAF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>/Users/williamminkstein/Dropbox/Repository/branch-corona-plugin.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>44DB887B464C95885BF7416056FB51055EB49BAF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>44DB887B464C95885BF7416056FB51055EB49BAF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>corona-plugin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
